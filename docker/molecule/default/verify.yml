@@ -53,6 +53,11 @@
         deb: "{{ inspec_download_source_dir }}/{{ inspec_download_url.split('/')[-1] }}"
         state: present
       when: ansible_pkg_mgr == "apt"
+    
+    - name: Check inspec version
+      command: inspec version
+      register: inspecversion
+    - debug: var=inspecversion.stdout_lines
 
     - name: Install Inspec (yum)
       yum:
