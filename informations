@@ -3,5 +3,8 @@ https://github.com/ferrarimarco/cookiecutter-ansible-role
 https://github.com/audreyr/cookiecutter
 https://cookiecutter.readthedocs.io/en/latest/
 
+https://github.com/openstack/ara
+https://github.com/openstack/ansible-hardening
+
 molecule init template -r docker2 --url https://github.com/ferrarimarco/cookiecutter-ansible-role
 
