@@ -1,0 +1,7 @@
+https://github.com/ferrarimarco/cookiecutter-ansible-role
+
+https://github.com/audreyr/cookiecutter
+https://cookiecutter.readthedocs.io/en/latest/
+
+molecule init template -r docker2 --url https://github.com/ferrarimarco/cookiecutter-ansible-role
+
